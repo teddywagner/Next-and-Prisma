@@ -5,6 +5,13 @@
 /.pnp
 .pnp.js
 
+# package-lock
+package-lock.json
+
+# prisma
+/prisma/migrations
+/prisma/schema.prisma
+
 # testing
 /coverage
 
@@ -26,6 +33,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
